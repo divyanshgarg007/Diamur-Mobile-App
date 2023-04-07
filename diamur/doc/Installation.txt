@@ -1,0 +1,44 @@
+##Installation instruction
+
+#Clone repository
+git clone https://gitlab.com/h2486/diamur-mobile.git
+
+# Install dependencies
+yarn
+
+# Run app on Android emulator
+- Install Android Studio and open 'android' folder as a project in Android Studio
+- Complete sync process
+- Setup and Emulator and open 
+- Press 'Play' button to run the App
+
+# Run app via npx
+npx react-native run-android
+
+
+## To work react-nativigation drawer
+- Complete Installation from: https://reactnavigation.org/docs/drawer-navigator/
+- If doesn't work clean cache: npm start -- --reset-cache
+
+
+## For clean gradle
+cd android &&./gradlew clean
+
+# Run debugger(Windows)
+- Reference link- https://stackoverflow.com/questions/61067004/invariant-violation-calling-synchronous-methods-on-native-modules-is-not-suppor
+- node_modules/react-native/Libraries/BatchedBridge/MessageQueue.js
+
+   callNativeSyncHook(
+    moduleID: number,
+    methodID: number,
+    params: any[],
+    onFail: ?Function,
+    onSucc: ?Function,
+  ): any {
+    const isDebuggingEnabled = (typeof atob !== 'undefined');
+    this.processCallbacks(moduleID, methodID, params, onFail, onSucc);
+    if(!isDebuggingEnabled)
+    {
+      return global.nativeCallSyncHook(moduleID, methodID, params);
+    }
+  }

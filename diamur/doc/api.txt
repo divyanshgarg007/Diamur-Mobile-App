@@ -1,0 +1,134 @@
+// News Api
+{
+    "payload": {
+        "category": [
+            {
+                "id": 1,
+                "name": "Sports",
+                "display_name": null,
+                "locale": "en",
+                "status": "1",
+                "deleted_at": null,
+                "created_at": "2022-04-26T15:43:31.000000Z",
+                "updated_at": "2022-04-26T15:43:31.000000Z"
+            }
+        ],
+        "news": [
+            {
+                "id": 1,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \" open=\"\" sans\",=\"\" sans-serif;=\"\" letter-spacing:=\"\" 0px;\"=\"\"></p><p>https://testapp.diamur.be/storage/news/1/1652256778.jpgLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p><img src=\"https://testapp.diamur.be//storage/uploads/1652779078.png\" style=\"width: 50%; float: left;\" class=\"note-float-left\">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p><p></p><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><p><img src=\"https://testapp.diamur.be//storage/uploads/1652779078.png\" class=\"note-float-right\" style=\"width: 627px; float: right;\">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p></p><p></p><div><br></div></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-12",
+                "category_id": "4",
+                "status": "1",
+                "image": "news/1/1652256778.jpg",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-17T09:27:36.000000Z"
+            },
+            {
+                "id": 4,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \"Open Sans\", sans-serif; letter-spacing: 0px;\"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p></p><div><br></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-121",
+                "category_id": "1",
+                "status": "1",
+                "image": "news/4/1652261909.png",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-11T09:38:29.000000Z"
+            },
+            {
+                "id": 7,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \"Open Sans\", sans-serif; letter-spacing: 0px;\"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p></p><div><br></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-124",
+                "category_id": "1",
+                "status": "1",
+                "image": "news/7/1652256847.jpg",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-11T08:14:07.000000Z"
+            },
+            {
+                "id": 10,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \"Open Sans\", sans-serif; letter-spacing: 0px;\"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p></p><div><br></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-1210",
+                "category_id": "1",
+                "status": "1",
+                "image": "news/10/1652257154.jpg",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-11T08:19:14.000000Z"
+            },
+            {
+                "id": 13,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \"Open Sans\", sans-serif; letter-spacing: 0px;\"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p></p><div><br></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-12113",
+                "category_id": "4",
+                "status": "1",
+                "image": "news/13/1652257179.jpg",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-11T08:19:39.000000Z"
+            },
+            {
+                "id": 16,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \"Open Sans\", sans-serif; letter-spacing: 0px;\"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p></p><div><br></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-12416",
+                "category_id": "4",
+                "status": "1",
+                "image": "news/16/1652257076.png",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-11T08:17:56.000000Z"
+            },
+            {
+                "id": 19,
+                "title": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor En",
+                "locale": "en",
+                "description": "<div class=\"news_content_body\" style=\"margin-bottom: 2rem; color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"><div class=\"news_content_dark\"><p style=\"margin-bottom: 0px; line-height: 20px; font-family: \"Open Sans\", sans-serif; letter-spacing: 0px;\"><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.<br></p><p> </p></p><div><br></div></div></div><div class=\"news_content_bottom\" style=\"color: rgb(0, 0, 0); font-family: museo-sans, sans-serif; font-size: 14px;\"></div>",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata",
+                "slug": "lorem-ipsum-en-0001-2022-04-1241619",
+                "category_id": "4",
+                "status": "1",
+                "image": "news/19/1652257114.jpg",
+                "deleted_at": null,
+                "created_at": "2022-04-12T01:03:09.000000Z",
+                "updated_at": "2022-05-11T08:18:34.000000Z"
+            },
+            {
+                "id": 22,
+                "title": "test",
+                "locale": "en",
+                "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+                "short_description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.",
+                "slug": "test-0022-2022-05-17",
+                "category_id": "1",
+                "status": "1",
+                "image": null,
+                "deleted_at": null,
+                "created_at": "2022-05-17T09:30:01.000000Z",
+                "updated_at": "2022-05-17T09:30:01.000000Z"
+            }
+        ],
+        "base_url": "https://testapp.diamur.be/storage"
+    },
+    "status": "success",
+    "message": "News list"
+}

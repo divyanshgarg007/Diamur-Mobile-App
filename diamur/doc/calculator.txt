@@ -1,0 +1,80 @@
+tile joint calculator:
+
+1.We select a product. A consumption is linked to that product.
+  So in the backend we need to be able to add a product name, along with a value for consumption.
+2.Enter a length of the tile: set default 600 mm
+3.Enter a width of the tile: set default 600 mm
+4.Enter a width of the joint: set default 5 mm
+5.Enter a depth of the joint: set default 10 mm
+6.Enter a total area: default at 1m2
+7.Result is weight of the joint
+  Calculation:
+  (width of the joint x thickness of the joint x width of the tile + width of the joint x length of the joint x length of tile) / (width of the tile + width of the joint) * 1000 * 1000 * consumption of the product / 1000000000 * the total area
+
+The products we have here for now
+- J200: 2.000
+- P500 liquid processed: 1.923077
+- P500 Earth Moist Processed: 2.083333
+
+mortar calculator:
+
+1.We select a stone choice. A length and a height of the stone are linked to this stone.
+  So in the backend we should be able to add a brick name, along with a value for length and height in mproductm.
+2.Enter the depth of the joint: default 20 mm
+3.Enter the height of the joint: default 12 mm
+4.We select a mortar type. A kg mortar/l is linked to this type of mortar. In the backend we must therefore be able to add mortar types with title and a value for the kg mortar/l
+5.Enter a total area: default at 1m2 ==added input text in design(Bidya)
+6.Result is calculated like this:
+  (Height joint x (length stone + height stone + 2 x height joint) x depth stone / (length stone + height joint) / (height stone + height joint)) x mortar type x number of square meters.
+
+Stone Choice:
+Name	Lenght	Heighth	Depth	product_url
+M50	  188 mm	88 mm	  48 mm	
+M65	  188 mm 	88 mm	  63 mm	
+WF	  210 mm	105 mm	48 mm	
+WV65	210 mm	105 mm	65 mm	
+DL	  288 mm	88 mm	  48 mm	
+RV	  180 mm	80 mm	  40 mm	
+
+
+
+Joint mortar calculator:
+
+1.We select a stone choice. A length, a height and a depth of the stone are linked to this stone.
+  So in the backend we should be able to add a brick name, along with a value for length and height in mm. : 
+  where to add brick name? Along with length and height..??
+
+2.Enter the height of the joint: default 12 mm
+3.We select a group type. A density is linked to this type of mortar. So in the backend we should be able to add mortar types with title and a value for the density (for now only 1: VMK200): where to save and where to display..??
+
+4.Enter a total area: default at 1m2
+5.Result is calculated like this:
+  (Height joint x depth joint x (length brick + height brick + height joint)/(length brick+height joint)/(height brick+height joint)) x the density x surface area (number of m2)
+
+Stone Choice:
+Name	Length	Heighth	Depth
+M50	  188 mm	88 mm	  48 mm
+M65	  188 mm 	88 mm	  63 mm
+WF	  210 mm	105 mm	48 mm
+WV65	210 mm	105 mm	65 mm
+DL	  288 mm	88 mm	  48 mm
+RV	  180 mm	80 mm	  40 mm
+
+
+Tile adhesive calculator:
+1.Enter the width of the notched trowel: default at 10 mm
+2.Enter the height of the notched trowel: default at 10 mm
+3.A height of the adhesive is calculated as volts:
+ (Sinus(45x (PI/180)) x height of the notched trowel
+4.A volume of glue per square meter is also calculated
+  Width of notched trowel x height of adhesive / (width notched trowel + notched trowel) x 1000 / 1000000 x 1000
+5.We select a kind of glue. One kg of glue per l is determined by the choice of glue. In the backend we have to provide that we can set a glue choice with title and a value for the kg glue per l.
+6.Enter the number of square meters: default on 1 m2
+7.Suits:
+  Volume of glue per square meter x the choice of glue x the square meter
+
+
+
+
+ 
+
